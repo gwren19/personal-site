@@ -17,7 +17,7 @@ const Hero = () => {
     ];
 
     return(
-        <section id='my-hero' className="hero is-info is-large is-bold">
+        <section id='my-hero' className="hero is-info is-large is-bold is-mobile">
         <div className="hero-head">
             <nav className="navbar">
             <div className="container">
@@ -66,7 +66,7 @@ const Hero = () => {
                     Projects
                     </Link>
                     <span className="navbar-item">
-                    <a id='git-button' className="button is-info is-inverted" href='https://github.com/gwren19' target="_blank">
+                    <a id='git-button' className="button is-info is-inverted" href='https://github.com/gwren19' target="_blank" rel="noopener noreferrer">
                         <span className="icon">
                         <i className="fab fa-github"></i>
                         </span>
