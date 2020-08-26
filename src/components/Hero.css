@@ -1,0 +1,30 @@
+.main-title {
+    font-family: 'Roboto Slab', serif;
+}
+
+.hero.is-info .title {
+    margin-top: -7rem;
+    color: black;
+}
+
+.hero.is-info .subtitle {
+    color: black;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+#my-hero {
+    background-image: url(./resources/background-coding.jpeg);
+    background-repeat: no-repeat;
+    background-size: 2100px;
+}
+
+#git-button {
+    background-color: whitesmoke;
+}
+
+#menu-button {
+    color: black;
+}
