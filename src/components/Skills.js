@@ -13,6 +13,7 @@ const Skills = () => {
                     <p id='skills-item' className='heading'>JavaScript</p>
                     <p id='skills-item' className='heading'>Node.JS</p>
                     <p id='skills-item' className='heading'>React</p>
+                    <p id='skills-item' className='heading'>jQuery</p>
                     <p id='skills-item' className='heading'>PostgreSQL</p>
                     <p id='skills-item' className='heading'>CSS</p>
                     <p id='skills-item' className='heading'>HTML</p>
@@ -24,6 +25,7 @@ const Skills = () => {
                 </div>
                 <div className="column">
                     <p id='skills-title'>Some Familiarity</p>
+                    <p id='skills-item' className='heading'>TypeScript</p>
                     <p id='skills-item' className='heading'>Ruby</p>
                 </div>
             </div>

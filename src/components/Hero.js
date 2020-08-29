@@ -25,16 +25,6 @@ const Hero = () => {
                 </div>
                 <div id="navbarMenuHeroB" className="navbar-menu">
                 <div className="navbar-end">
-                    <Link id='menu-button' className="navbar-item is-active"
-                        activeClass="active"
-                        to="home"
-                        spy={true}
-                        smooth={true}
-                        offset={-10}
-                        duration= {500}
-                    >
-                    Home
-                    </Link>
                     <Link id='menu-button' className="navbar-item"
                         activeClass="active"
                         to="about-box"
