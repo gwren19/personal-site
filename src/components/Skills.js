@@ -22,6 +22,7 @@ const Skills = () => {
                     <p id='skills-title'>Knowledgeable</p>
                     <p id='skills-item' className='heading'>Express</p>
                     <p id='skills-item' className='heading'>Angular</p>
+                    <p id='skills-item' className='heading'>SCSS</p>
                 </div>
                 <div className="column">
                     <p id='skills-title'>Some Familiarity</p>
@@ -30,7 +31,6 @@ const Skills = () => {
                 </div>
             </div>
         </div>
-        
     )
 }
 
