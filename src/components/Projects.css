@@ -8,7 +8,6 @@
 .card {
     margin-top: 3rem;
     margin-bottom: 2rem;
-    margin-left: 1rem;
     max-width: 28rem;
     align-items: center;
     justify-content: center;
@@ -22,4 +21,9 @@
 
 #project-par {
     font-family: 'Roboto Slab', serif;
+}
+
+.sentence-bold {
+    font-weight: bolder;
+    text-decoration: underline;
 }

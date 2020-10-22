@@ -3,10 +3,10 @@ import './Projects.css';
 
 const Projects = () => {
     return(
-        <div id='project-par' className='container'>
+        <div id='project-par' className='container is-fluid' style={{ alignItems: 'center' }}>
             <h1 className='projects-header'>Projects</h1>
-            <div className='columns is-1-mobile is-desktop'>
-                <div className="column is-one-third card">
+            <div className='level'>
+                <div className="card">
                         <div className="card-image">
                             <figure className="image is-3by2">
                             <img src={require("./resources/the-great-outdoors.jpeg")} alt="The Great Outdoors Website" />
@@ -28,7 +28,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="column id-one-third card">
+                <div className="card">
                         <div className="card-image">
                             <figure className="image is-3by2">
                             <img src={require("./resources/calculator.jpeg")} alt="Calculator" />
@@ -52,6 +52,33 @@ const Projects = () => {
                             <br/>
                             <div className="links">
                                 <a href="https://github.com/gwren19/Calculator" target="_blank" rel="noopener noreferrer">Github</a> || <a href="https://wizardly-mahavira-6637d5.netlify.app/" target="_blank" rel="noopener noreferrer">Deployed</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="card">
+                        <div className="card-image">
+                            <figure className="image is-3by2">
+                            <img src={require("./resources/hops_vines.jpeg")} alt="Under Construction" />
+                            </figure>
+                        </div>
+                    <div className="card-content">
+                        <div className="media">
+                            <div className="media-content">
+                                <p className="title is-4">Hops & Vines</p>
+                                <p className="subtitle is-6">small business site</p>
+                            </div>
+                        </div>
+                        <div className="content">
+                            <p><span className="sentence-bold">Site currently under construction.</span>  Developing a website for a bar located in Cottonwood, CA.  This site will feature their rotating tap list, hours, contact info, and about us page.</p>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <div className="links">
+                            Github || Deployed
                             </div>
                         </div>
                     </div>
