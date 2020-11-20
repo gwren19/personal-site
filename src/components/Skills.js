@@ -20,6 +20,7 @@ const Skills = () => {
                 </div>
                 <div className="column">
                     <p id='skills-title'>Knowledgeable</p>
+                    <p id='skills-item' className='heading'>Python</p>
                     <p id='skills-item' className='heading'>Express</p>
                     <p id='skills-item' className='heading'>Angular</p>
                     <p id='skills-item' className='heading'>SCSS</p>
