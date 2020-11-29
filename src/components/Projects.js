@@ -84,6 +84,32 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            <div className='level'>
+                <div className="card">
+                        <div className="card-image">
+                            <figure className="image is-3by2">
+                            <img src={require("./resources/news.jpeg")} alt="The News" />
+                            </figure>
+                        </div>
+                    <div className="card-content">
+                        <div className="media">
+                            <div className="media-content">
+                                <p className="title is-4">Wren News</p>
+                                <p className="subtitle is-6">A news search engine</p>
+                            </div>
+                        </div>
+                        <div className="content">
+                            <p>Wren News is a search engine, for the news.  This web app fetches data from an API and renders the data for the user to see.  Each user has the ability to search by keywords, region, category, date, and even change the language.  To accomplish this, this app prefetches the categories, languages, and regions and utilizes local storage.</p>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <div className="links">
+                            <a href="https://github.com/gwren19/WrenNews" target="_blank" rel="noopener noreferrer">Github</a> || <a href="https://relaxed-benz-21ee61.netlify.app/" target="_blank" rel="noopener noreferrer">Deployed</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
