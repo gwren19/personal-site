@@ -3,13 +3,13 @@ import './Projects.css';
 
 const Projects = () => {
     return(
-        <div id='project-par' className='container is-fluid' style={{ alignItems: 'center' }}>
+        <div id='project-par' className='container is-fluid'>
             <h1 className='projects-header'>Projects</h1>
-            <div className='level'>
+            <div className='level' style={{ justifyContent: 'center' }}>
                 <div className="card">
                         <div className="card-image">
                             <figure className="image is-3by2">
-                            <img src={require("./resources/the-great-outdoors.jpeg")} alt="The Great Outdoors Website" />
+                            <img src={require("./resources/the-great-outdoors.jpeg")} alt="The Great Outdoors Website" loading='lazy' />
                             </figure>
                         </div>
                     <div className="card-content">
@@ -28,10 +28,10 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card">
+                <div className="card" style={{ marginLeft: '1rem', marginRight: '1rem' }}>
                         <div className="card-image">
                             <figure className="image is-3by2">
-                            <img src={require("./resources/calculator.jpeg")} alt="Calculator" />
+                            <img src={require("./resources/calculator.jpeg")} alt="Calculator" loading='lazy' />
                             </figure>
                         </div>
                     <div className="card-content">
@@ -59,7 +59,7 @@ const Projects = () => {
                 <div className="card">
                         <div className="card-image">
                             <figure className="image is-3by2">
-                            <img src={require("./resources/hops_vines.jpeg")} alt="Under Construction" />
+                            <img src={require("./resources/hops_vines.jpeg")} alt="Under Construction" loading='lazy' />
                             </figure>
                         </div>
                     <div className="card-content">
@@ -84,11 +84,11 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className='level'>
+            <div className='level' style={{ justifyContent: 'center' }}>
                 <div className="card">
                         <div className="card-image">
                             <figure className="image is-3by2">
-                            <img src={require("./resources/news.jpeg")} alt="The News" />
+                            <img src={require("./resources/news.jpeg")} alt="The News" loading='lazy' />
                             </figure>
                         </div>
                     <div className="card-content">

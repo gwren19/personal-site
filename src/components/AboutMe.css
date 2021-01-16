@@ -25,3 +25,7 @@
 #about-box {
     font-family: 'Roboto Slab', serif;
 }
+
+.box {
+    max-height: 40rem;
+}

@@ -10,7 +10,7 @@ const AboutMe = () => {
                 <article className="media">
                     <div className="media-left">
                     <figure className="image">
-                        <img className='self-photo' src={require("./resources/IMG_8667.jpeg")} alt="" />
+                        <img className='self-photo' src={require("./resources/IMG_8667.jpeg")} alt="" loading='eager' />
                     </figure>
                     </div>
                     <div className="media-content">

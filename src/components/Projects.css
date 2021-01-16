@@ -7,11 +7,8 @@
 
 .card {
     margin-top: 1rem;
-    max-width: 28rem;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
+    max-width: 27rem;
+    min-width: 27rem;
 }
 
 .links {
